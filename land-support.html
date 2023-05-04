@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/support.css"> <!--links to css file-->
+    <style>
+        input[type=button], input[type=submit], input[type=reset] {
+            padding: 16px 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+<!--
+    <style>
+        .input{
+            text-align: center;
+        }
+        .button{
+            border: 1px solid #3498db;
+            background: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            font-family: "monteserrat";
+            cursor: pointer;
+            margin: 10px;
+            transition: 0.8s;
+            position: relative;
+            overflow: hidden;
+        }
+        .button{
+            color: #3498db
+        }
+        .button:hover{
+            color: #fff;
+        }
+        .button::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 0;
+            background: #3498db;
+            z-index: -1;
+            transition: 0.8s;
+        }
+        .button::before{
+            top: 0;
+            border-radius: 0 0 50% 50%;
+        }
+        .button:hover::before{
+            height: 180%;
+        }
+    </style>
+-->
+    <title>About me</title>
+</head>
+<body>
+    <!--Header-->
+    <h1>About Me</h1>
+    <!--Navigation Bars-->
+    <div class="container">
+        <button onclick="window.location.href = 'index.html';" class="btn btn1" >Home</button>
+        <button onclick="window.location.href = 'land-accomplished.html';" class="btn btn2">Accomplished</button>
+        <button onclick="window.location.href = 'land-goals.html';" class="btn btn3">Goals</button>
+        <button onclick="window.location.href = 'land-support.html';" class="btn btn4">Support</button>
+    </div>
+    <!--Paragraph-->
+    <p>
+        I always strive to learn. I always seek for outside help from peers. As they seem to hold the same views.
+        Although having the same view is not always great as you sometimes need someone to see it from another viewpoint.
+        Please provide me your feedback to help me, and the community grow.
+    </p>
+    <!--Form for user-->
+    <form action="action_page.php" style="align-self: center;">
+        <p style="text-align: center; font-size: larger;">Tell us about you</p>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="yourself">About You:</label><br>
+        <textarea id="box" rows="5" cols="60" name="text" placeholder="Give us feedback"></textarea><br>
+        <input class="other btn5" type="submit" value="Submit">
+    </form>
+</body>
+<!--Footer-->
+<footer id="footer">
+    123 Main St.<br>
+    Anywhere, NC 27000<br>
+    Phone: (919) 123-4567 Fax: (919) 123-9875<br>
+    Copyright 2023 &copy;<br>
+</footer>
+</html>
