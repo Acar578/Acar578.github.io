@@ -51,6 +51,7 @@ body{
 }
 /*End of Nav bar*/
 h1{
+    color: #fff;
     text-align: center;
     font-family: Georgia;
 }
