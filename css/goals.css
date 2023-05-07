@@ -63,13 +63,13 @@ h1{
     font-family: Georgia;
 }
 p{
+    background: #fff;
     text-align: center;
     padding: 35px;
     /*
     height: 50vh;
     box-sizing: border-box;
     */
-    background: #fff;
 }
 /*Image Settings*/
 .image{

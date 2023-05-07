@@ -56,20 +56,20 @@ h1{
     font-family: Georgia;
 }
 p{
+    background: #fff;
     text-align: center;
     /*
     height: 50vh;
     box-sizing: border-box;
     */
     padding: 35px;
-    background-color: #fff;
 }
 footer{
+    margin: auto;
+    background: #fff;
     text-align: center;
     margin-top: auto;
     padding: 20px;
-    background: #fff;
-    margin: auto;
 }
 /*Image Settings*/
 .image{

@@ -56,7 +56,7 @@ h1{
     font-family: Georgia;
 }
 p{
-    background-color: #fff;
+    background: #fff;
 }
 footer{
     text-align: center;
@@ -122,6 +122,3 @@ img{
     }
 }
 /*Slider End*/
-.forum{
-    background:  #fbfaff;
-}
